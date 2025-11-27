@@ -1,0 +1,58 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+/* LOGO */
+.logo {
+  height: 50px;
+}
+
+/* NAV LINKS (Flexbox) */
+.nav-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Menu items */
+.nav-links a {
+  text-decoration: none;
+  color: #222;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* SEARCH BUTTON */
+.search-btn {
+  padding: 8px 16px;
+  background: #003049;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* HERO IMAGE */
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
